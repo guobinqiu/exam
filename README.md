@@ -1,4 +1,4 @@
-Rakuten Travel Xchange Interview （我曝光它因为被放鸽子了）
+Rakuten Travel Xchange Interview
 ---
 
 # Take home assignment
@@ -75,38 +75,3 @@ Develop an endpoint that will return the minimum, maximum and average exchange r
     }
 }
 ```
-
-# Answer
-
-### Run server
-
-```bash
-go run main.go
-```
-or
-
-```bash
-make start
-```
-
-### Run test
-
-```bash
-go test -v ./rate
-```
-
-or 
-
-```bash
-make test
-```
-
-### APIs
-
-```bash
-http://localhost:9999/rates/latest
-http://localhost:9999/rates/2022-07-05
-http://localhost:9999/rates/analyze
-```
-
-Note：In order to pass the testcases, you could change the `TestGetCube` mehtod in the `xml_test.go` since their xml rolling every 90 days
