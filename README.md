@@ -108,3 +108,5 @@ http://localhost:9999/rates/latest
 http://localhost:9999/rates/2022-07-05
 http://localhost:9999/rates/analyze
 ```
+
+Note：In order to pass the testcases, you could change the `TestGetCube` mehtod in the `xml_test.go` since their xml rolling every 90 days
