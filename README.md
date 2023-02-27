@@ -1,4 +1,4 @@
-Rakuten Travel Xchange Interview （放我鸽子曝光它）
+Rakuten Travel Xchange Interview
 ---
 
 # Take home assignment
