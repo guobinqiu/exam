@@ -104,7 +104,8 @@ make test
 ### APIs
 
 ```bash
-http://localhost:9999/rates/latest
-http://localhost:9999/rates/2022-07-05
-http://localhost:9999/rates/analyze
+http://localhost:9999
+/rates/latest
+/rates/YYYY-MM-DD
+/rates/analyze
 ```
